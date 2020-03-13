@@ -1,0 +1,191 @@
+@media only screen and (max-width: 1200px) {
+    .heading {
+      width: 40%;
+    }
+    .bills-heading{
+      width: 50%;
+    }
+    .team-heading{
+      width: 73%;
+    }
+   
+  }
+  @media only screen and (max-width: 992px) {
+    h2{
+      font-size: 35px;
+    }
+    p{
+      font-size: 10px;
+    }
+  
+    .heading{
+      width: 40%;
+    }
+    .team-heading{
+      width: 70%;
+    }
+    .bills-heading{
+      width:45%;
+    }
+    .team-table:after,   .team-table:before {
+      height: 240px;
+    }
+    table{
+      width: 100% !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .heading{
+      width: 40%;
+    }
+    .bills-heading{
+      width: 50%;
+    }
+    .team-heading{
+      width: 80%;
+    }
+    h2{
+      font-size: 30px;
+    }
+    table{
+      font-size: 12px;
+    }
+    .team-table:after,   .team-table:before {
+      height: 255px;
+    }
+    .billing-table:before, .billing-table:after{
+      height: 355px;
+    }
+    .detail-table:after, .detail-table:before{
+      height: 165px;
+
+
+    }
+
+  }
+  @media only screen and (max-width: 736px) {
+   .thankyou-page-img{
+     display: none;
+
+   }
+   .order-number:after, .email:after, .total:after, .payment:after{
+     top: 30px;
+   }
+   .date::after{
+     top: 30px;
+   
+   }
+   
+
+
+   .orders-div:before{
+    content: "";
+    border-left: 2px solid #8bc34a;
+    height: 55px;
+    border-bottom: 2px solid #8bc34a;
+    width: 20px;
+    position: absolute;
+    left: 0;
+
+
+   }
+   .orders-div:after{
+   content: "";
+   border-right: 2px solid #8bc34a;
+   height: 55px;
+   border-top: 2px solid #8bc34a;;
+   width: 20px;
+   position: absolute;
+   right: 0;
+  
+   
+   }
+   
+   .order{
+     display: block;
+    
+   }
+   
+   .orders-div{ 
+     padding: 2em 18px;
+     width: 100%;
+     position: relative;
+     text-align: center;
+   }
+
+  }
+  @media only screen and (max-width: 522px) {
+    h2{
+      font-size: 22px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 450px) {
+    
+   
+     .billing-table:before, .billing-table:after{
+      height: 375px;
+    } 
+
+  }
+  @media only screen and (max-width: 489px) {
+    .detail-table:after, .detail-table:before{
+      height: 200px;
+    } 
+     .team-table:after,   .team-table:before {
+      height: 270px;
+    }
+    .heading{
+      width: 45%;
+    }
+    .bills-heading{
+      width: 60%;
+
+    }
+    .team-heading{
+      width: 85%;
+    } 
+   
+    h2{
+      font-size: 18px;
+    }
+
+  }
+  @media only screen and (max-width: 422px) {
+     .team-table:after,   .team-table:before {
+      height: 265px;
+    } 
+     .billing-table:before, .billing-table:after{
+      height: 337px;
+      
+    } 
+    .detail-table:after, .detail-table:before{
+      height: 185px;
+    } 
+    table td{
+    padding-top: 3px;
+    }
+  }
+  @media only screen and (max-width: 398px) {
+    .billing-table:before, .billing-table:after{
+      height: 377px;
+      
+    }
+
+  }
+  @media only screen and (max-width: 407px) {
+    .billing-table:before, .billing-table:after{
+      height: 375px;
+      
+    }
+
+  }
+  @media only screen and (max-width: 379px) {
+    .detail-table:after, .detail-table:before{
+      height: 205px;
+    }
+    .team-table:after,   .team-table:before {
+      height: 272px;
+    } 
+  }
